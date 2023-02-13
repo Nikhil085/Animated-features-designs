@@ -1,0 +1,21 @@
+body{
+    background:white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .share-button {
+    width: 30px;
+    height: 30px;
+    background: rgb(33, 100, 216);
+    border-radius:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }

@@ -1,0 +1,96 @@
+body{
+    background: white;
+    overflow: hidden;
+}
+
+.checkbox{
+   position: absolute;
+   display: block;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   width: 40px;
+   height: 40px;
+   cursor: pointer;
+   z-index: 2;
+   opacity: 0;
+
+}
+
+.container label{
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    display: block;
+    background: rgb(100, 100, 100);
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.container label::before, .container label::after{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 4.5px;
+    display:block;
+    z-index: 1;
+    background: rgb(100, 100, 100);
+    border-radius: 3px;
+}
+.container label::before{
+    top: 10px;
+    
+}  
+.container label::after{
+    top:-10px;
+}
+
+.checkbox:hover + label,
+.checkbox:hover + label::before,
+.checkbox:hover + label::after{
+    background: rgb(85, 84, 84);
+}
+
+.manu-item{
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.manu-item a{
+    display: block;
+    line-height: 80px;
+    background: white;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(95, 10, 121 ,);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

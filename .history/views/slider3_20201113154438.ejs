@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider2</title>
+    <link rel="stylesheet" href="../stylesheets/slider3.css">
+    <style>
+        body{
+            font-family: sans-serif;
+            overflow-x:hidden ;
+            background-image: url("../images/cam.jpg");
+            background-size: cover;
+        }
+       
+        .hi-slide{
+            position: relative;
+            width: 754px;
+            height: 292px;
+            margin: 115px auto 0;
+        }
+
+        .hi-slide .hi-next,
+        .hi-slide .hi-prev{
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            margin-top: -20px;
+            border-radius: 50px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            transition: all 0.7s;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        .hi-slide .hi-next:hover,
+        .hi-slide .hi-prev:hover{
+           opacity: 1;
+           background-color: white;
+
+        }
+
+       .hi-slide .hi-prev{
+           left: -70px;
+           
+       }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="slide hi-slide">
+   <div class="hi-prev"></div>
+   <div class="hi-next"></div>
+  <ul>
+      <li>
+          <img src="https://images.unsplash.com/photo-1502307100811-6bdc0981a85b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+      </li>
+
+      <li>
+        <img src="https://images.unsplash.com/photo-1547320935-59b5a4f2cd1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+    </li>
+
+    <li>
+        <img src="https://images.unsplash.com/photo-1534082972383-06f02eb89fa3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+    </li>
+
+    <li>
+        <img src="https://images.unsplash.com/photo-1593184518468-cfc8536435df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+    </li>
+
+    <li>
+        <img src="https://images.unsplash.com/photo-1584650605009-8d540d80531f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+    </li>
+
+  </ul>
+    </div>
+</body>
+</html>

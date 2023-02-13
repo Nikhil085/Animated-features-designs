@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(to right, #2af598,lightblue);
+}
+.container .wrapper{
+    width: 70vw;
+    height: 75vh;
+    border: 1px solid black;
+    margin: 5rem auto;
+}
+.container .slider-holder{
+  display: grid;
+}
+
+.container #slider-image1{
+    background-color: green;
+}
+.container #slider-image2{
+    background-color: red;
+}
+.container #slider-image3{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+body{
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .share-button {
+    width: 280px;
+    height: 80px;
+    background: #f01dec hidden ;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ;  
+  }
+.share-button:hover{
+  transform: translateX(100%);
+  background: #f01dec;
+}
+
+.share-button span{
+    width: 30%;
+    height: 100%;
+    background: blueviolet;
+    margin-right: 200px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

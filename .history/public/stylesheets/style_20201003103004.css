@@ -1,0 +1,39 @@
+body{
+  align-items: center;
+  display: flex;
+ justify-content: center;
+
+}
+
+.loader {
+  width: 80px;
+  height:80px;
+  background-color: red;
+ 
+}
+.loader span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+ position: absolute;
+}
+
+.loader span:first-child{
+  background-color: #f08a5d;
+
+}
+
+.loader span:nth-child(2){
+  background-color: #d54062;
+  transform: translate(50px, 0);
+}
+
+.loader span:nth-child(3){
+  background-color: #02798e;
+  transform: translate(50px, 50px);
+}
+
+.loader span:nth-child{
+ background-color: #28df99;
+ transform: translate(0, 50px);
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheets/profile.css">
+</head>
+<body>
+    <div class="model">
+        <img src="../images/johndoe.jpg" alt="">
+        <div class="close"></div>
+    </div>
+   <div class="container">
+       <div class="card">
+           <div class="header">
+               <div class="hamburger-menu">
+                   <div class="center"></div>
+               </div>
+               <a href="#" class="mail">
+                <i class="ri-mail-line"></i>
+               </a>
+               <div class="main">
+                   <div class="image">
+                       <div style="font-size:33px" class="hover">
+                        <i class="ri-camera-fill "></i>
+                       </div>
+                   </div>
+                   <h3 class="name">John Doe</h3>
+                   <h3 class="sub-name">@J_Doe</h3>
+               </div>
+           </div>
+           <div class="content">
+               <div class="left">
+                   <div class="about-container">
+                       <h3 class="title">About</h3>
+                       <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis accusamus in harum.</p>
+                   </div>
+                   <div class="icon-container">
+                       <a href="#" class="icon">
+                        <i class="ri-facebook-circle-fill"></i>
+                       </a>
+                       <a href="#" class="icon">
+                        <i class="ri-instagram-line"></i>
+                       </a>
+                       <a href="#" class="icon">
+                        <i class="ri-flutter-fill"></i>
+                       </a>
+                       <a href="#" class="icon">
+                        <i class="ri-twitter-fill"></i>
+                       </a>
+                   </div>
+                   <div class="buttons-wrap">
+                       <div class="follow-wrap">
+                           <a href="#" class="follow">Follow</a>
+                       </div>
+                       <div class="share-wrap">
+                        <a href="#" class="share">Share</a>
+                    </div>
+                   </div>
+               </div>
+               <div class="right">
+                   <div>
+                       <h3 class="number">91</h3>
+                       <h3 class="number-title">Posts</h3>
+                   </div><div>
+                    <h3 class="number">2.4k</h3>
+                    <h3 class="number-title">Following</h3>
+                </div><div>
+                    <h3 class="number">5.9k</h3>
+                    <h3 class="number-title">Followers</h3>
+                </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <Script>
+       const image = document.querySelector('.image');
+       const hover = document.querySelector('.hover');
+
+       function show()
+
+       image.addEventListener('click', show); 
+   </Script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(to right, #2af598,lightblue);
+}
+.container{
+    position: relative;
+}
+.container .wrapper{
+    width: 70vw;
+    height: 75vh;
+    border: 1px solid black;
+    margin: 5rem auto;
+}
+.container .slider-holder{
+  display: grid;
+  grid-template-columns: repeat(3,100%);
+  height: 100%;
+}
+
+.container #slider-image1{
+    background-color: green;
+    background-image: url(../images/car1.jpg);
+    background-size: cover;
+}
+.container #slider-image2{
+    background-color: red;
+    background-image: url(../images/car1.jpg);
+    background-size: cover;
+}
+.container #slider-image3{
+    background-color: blue;
+    background-image: url(../images/car1.jpg);
+    background-size: cover;
+}
+.container .button-holder{
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+}
+.container .button-holder .dots{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 3rem;
+    background-color: white;
+    margin: .4rem .3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

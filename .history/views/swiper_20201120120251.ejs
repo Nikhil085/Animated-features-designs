@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiper</title>
+    <link rel="stylesheet" href="../stylesheets/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="../images/user1.jpg" alt="">
+            <h2>John Doe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Veritatis, accusantium saepe.<br>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Magni, fugiat.<br> Molestias optio nobis hic a iusto <br>repellendus cupiditate omnis.</p>
+        </div>
+        <div class="card">
+            <img src="../images/user1.jpg" alt="">
+            <h2>John Doe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Veritatis, accusantium saepe.<br>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Magni, fugiat.<br> Molestias optio nobis hic a iusto <br>repellendus cupiditate omnis.</p>
+        </div>
+        <div class="card">
+            <img src="../images/user1.jpg" alt="">
+            <h2>John Doe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Veritatis, accusantium saepe.<br>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Magni, fugiat.<br> Molestias optio nobis hic a iusto <br>repellendus cupiditate omnis.</p>
+        </div>
+        <div class="card">
+            <img src="../images/user1.jpg" alt="">
+            <h2>John Doe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Veritatis, accusantium saepe.<br>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Magni, fugiat.<br> Molestias optio nobis hic a iusto <br>repellendus cupiditate omnis.</p>
+        </div>
+        <div class="card">
+            <img src="../images/user1.jpg" alt="">
+            <h2>John Doe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Veritatis, accusantium saepe.<br>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Magni, fugiat.<br> Molestias optio nobis hic a iusto <br>repellendus cupiditate omnis.</p>
+        </div>
+        
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+         var swiper = new card('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+    </script>
+</body>
+</html>
